@@ -1,0 +1,25 @@
+{
+    "name": "usf-it/lookup_usfid",
+    "description": "Provides a form for retrieving your USFID",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "James Jones",
+            "email": "jamjon3@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "6.2.0",
+        "google/recaptcha": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "USF\\IdM\\LookupUSFID\\": "src/"
+        }
+    }
+}
